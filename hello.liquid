@@ -1,0 +1,13 @@
+<h1>OUTSIDE RAW</h1>
+hello testy
+My email is {{ user.email }} 
+My name is {{ user.name }}
+{% raw %}
+{% raw %}
+<h1>RAW</h1>
+{% endraw %}
+
+
+{% raw %}{{ 5 | plus: 6 }}{% endraw %} equals 11.
+{% raw %}<h1>RAW</h1>{% endraw %} equals 11.
+<h2>Price: $99.99</h2>
